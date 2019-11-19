@@ -7,41 +7,6 @@
 ### Examples
 
 
-# v0.9.11
-
-### Summary
-
-Quick release to address resource name bug in `single-port-sg` module. Will
-review the others for the next release.
-
-### Modules
-
-* `single-port-sg`: fixup - to _ in resource names
-
-### Examples
-
-* No changes
-
-
-# v0.9.10
-
-### Summary
-
-* Support encrypted EBS volumes on ASG, for root _and_ data volumes.
-* Update linting tests
-* Update 2 init snippets
-
-### Modules
-
-* `init-snippet-attach-ebs-volume`: Retrying attaching EBS
-* `asg`: Add support for encrypting the root and additional attached EBS volumes.
-* `init-snippet-install-awscli`: Uses Python3 for awscli. (#281)
-
-### Examples
-
-* No changes
-
-
 # v0.9.9
 
 ### Summary
